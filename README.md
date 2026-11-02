@@ -1,4 +1,6 @@
-# Welcome to your Expo app 👋
+# Campus-Spots
+
+Campus Spots is a React Native app built with Expo that shows a card about me and a flexbox playground; to start it, run `npm install` and then `npx expo start`.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
