@@ -1,4 +1,4 @@
-export type Category = "sight" | "food" | "park" | "museum" | "campus";
+export type Category = "sight" | "food" | "park" | "museum" | "campus" | "bar" | "shop";
 
 export interface Spot {
   id: string;
@@ -15,6 +15,8 @@ export const CATEGORY_EMOJI: Record<Category, string> = {
   park: "🌳",
   museum: "🏛️",
   campus: "🎓",
+  bar: "🍺",
+  shop: "🛒",
 };
 
 export const SPOTS: Spot[] = [
@@ -73,5 +75,29 @@ export const SPOTS: Spot[] = [
     description: "The main campus on Warszawska Street. Your second home this semester.",
     latitude: 50.0711,
     longitude: 19.9439,
+  },
+   {
+    id: "banialuka",
+    name: "Banialuka",
+    category: "bar",
+    description: "Escreve aqui uma frase tua sobre o sítio.",
+    latitude: 50.0638,
+    longitude: 19.9348,
+  },
+  {
+    id: "zabka",
+    name: "Żabka",
+    category: "shop",
+    description: "The little green convenience store on every corner, perfect for a quick snack.",
+    latitude: 50.0627,
+    longitude: 19.9377,
+  },
+  {
+    id: "bazylika-mariacka",
+    name: "St Mary's Basilica",
+    category: "sight",
+    description: "The Gothic church on the Main Square, famous for its wooden altarpiece and the trumpet call played every hour.",
+    latitude: 50.0617,
+    longitude: 19.9394,
   },
 ];
