@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     borderRadius: 12,
     backgroundColor: "white",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.12)",
   },
   emoji: {
     fontSize: 32,
